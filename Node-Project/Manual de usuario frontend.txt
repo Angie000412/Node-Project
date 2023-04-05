@@ -1,0 +1,68 @@
+Manual del usuario para la implementación del frontend: 
+
+1. Instalar node.js en la pc v16.14.2 e instalar git en la pc (descargar las instalaciones respectivamente)
+2. Verificar la versión de node instalada abriendo el símbolo de sistema y ejecuntando el comando: node -v
+2.1 Instalar node version manager y node package manager con los comandos: nvm install y npm install
+3. Crear una carpeta en cualquier lugar de la pc por ejemplo "nuevo-proyecto"
+Ahora conectado a internet:
+4. Abrir nuevamente el símbolo de sistema, yendo a dicha carpeta ejecutando los comandos: 
+cd "nuevo-proyecto"
+npm init 
+5. Una vez creado el proyecto procedemos a instalar vuejs en la carpeta usando los comandos:
+  1.  npm init -y
+   npm install vue
+  2. npm install -g @vue/cli
+ npm init vue@latest  (aquí es la versión 2 de vue)
+ vue --version
+6. Ya verificada la versión de vuejs, procedemos a crear un proyecto nuxt con los comandos:
+     npm install -g nuxt
+     npm init nuxt-app nombre-del-proyecto
+(la consola le irá preguntando lo siguente, para lo que usted responderá:)
+project name: nombre-del-proyecto
+programming language: JavaScript
+Package manager: npm 
+UI framework : Vuetify.js
+Nuxt.js modules: Progresive Web App (PWA)
+Linting tools: Prettier
+Testing framework: None
+Rendering mode: Universal (SSR/SSG)
+Deployment target: Server (Node.js hosting)
+Development tools: (seleccionar herramientas para el desarrollo vue2 y vuetify con espacio)
+Continuous integration: None
+Version control system: Git
+(esperar que termine la consola)
+
+7.Instalar dependencias de nuxt y vuejs que se utilizaron mediante el comando: 
+npm install nombre-de-la-dependencia  --save
+ Estas son las dependencias instaladas tanto para el proceso de desarrollo como para el ambiente de producción:
+ 1.   @mdi/font 
+ 2.@nuxtjs/axios
+ 3. @nuxtjs/color-mode
+ 4. @nuxtjs/tailwindcss
+ 5. axios  
+ 6.core-js
+ 7. cors
+ 8. export-from-json
+ 9. leaflet
+ 10. nuxt 
+ 11. nuxt-leaflet
+ 12. vue
+ 13. vue-json-excel
+ 14. vue-router-user-roles
+ 15. vue-select2
+ 16. vue-server-renderer
+ 17. vue-table-to-excel
+ 18. vue-template-compiler
+ 19. vue2-leaflet=
+ 20. vuetify
+ 21. webpack
+desarrollo : @nuxtjs/vuetify, vue2
+
+Paso 8: Clonar el repositorio de frontend y copiarlo dentro de la carpeta creada de "nuevo-proyecto",
+sustituyendo los elementos 
+Paso 9. En la raíz de la carpeta "nuevo-proyecto" abrir el símbolo de sistema o  la terminal deseada y ejecutar los comandos:
+npm run dev
+ Paso 10: Abrir el navegador en la dirección de localhost: 3000 o el puerto que diga la consola 
+ Paso 11: Entrar al sistema como administrador o especialista Administrador es la  contraseña Admin123*, 
+la de especialista es Especialista123* . Esperemos no encuentre complicaciones en el proceso de instalación del frontend. 
+ Gracias por su atención.

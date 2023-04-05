@@ -1,0 +1,1 @@
+<!-- configurar layout small -->
